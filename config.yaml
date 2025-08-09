@@ -1,0 +1,8 @@
+ocr:
+  ocr_api_key:
+  ocr_secret_key:
+
+llm:
+  api_key:
+  api_url: https://api.deepseek.com/v1
+  model_name: deepseek-chat

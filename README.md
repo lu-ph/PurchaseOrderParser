@@ -1,15 +1,15 @@
-# 识别采购订单PDF/图片中的数据
+识别采购订单PDF/图片中的数据
 
-# 百度手写体识别OCR(可更换，一些OCR api通用)
+百度手写体识别OCR(可更换，一些OCR api通用)
  apiUrl: "https://aip.baidubce.com/rest/2.0/ocr/v1/table"
 
-# ![百度表格识别OCR](https://cloud.baidu.com/doc/OCR/s/Al1zvpylt)
+[百度表格识别OCR](https://cloud.baidu.com/doc/OCR/s/Al1zvpylt)
  apiUrl: "https://aip.baidubce.com/rest/2.0/ocr/v1/handwriting"
  
-# langchaingo
+langchaingo
 
 
-# 请求参数
+请求参数
 localhost:8086/parse
 
 ```json
@@ -20,7 +20,7 @@ localhost:8086/parse
 }
 ```
 
-# 响应
+响应
 ```json
 {
     "rawText": "(原始ocr文本)",
@@ -87,7 +87,7 @@ localhost:8086/parse
 }
 ```
 
-# 响应参数说明：
+响应参数：
 ```go
 type LLMOutput struct {
 	OrderDate           string    `json:"orderDate" describe:"订单日期，格式为YYYY-MM-DD"`

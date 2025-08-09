@@ -1,4 +1,4 @@
-# 识别订购单PDF/图片中的数据
+# 识别采购订单PDF/图片中的数据
 
 # 百度手写体识别OCR(可更换，一些OCR api通用)
  apiUrl: "https://aip.baidubce.com/rest/2.0/ocr/v1/table"
